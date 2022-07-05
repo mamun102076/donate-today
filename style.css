@@ -137,3 +137,47 @@ body{
     background-color: #FFF4D6;
 }
 
+#get-update-area{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+#get-update-area .get-update-content{
+    text-align: center;
+}
+#get-update-area .get-update-top h1{
+    font-size: 45px;
+}
+#get-update-area .get-update-top p{
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.get-update-bottom{
+    background-color: #FFF4D6;
+    padding: 70px 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.get-update-bottom form{
+    display: flex;
+    margin-left: 25%;
+}
+.get-update-bottom input{
+    padding: 15px;
+    background-color: #D9D9D9;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+.get-update-bottom input[type="email"]{
+    width: 40%;
+    border-radius: 5px 0 0 5px;
+}
+.get-update-bottom input[type="submit"]{
+    padding: 15px 45px;
+    background-color: #FF5959;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
