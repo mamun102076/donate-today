@@ -175,9 +175,25 @@ body{
     border-radius: 5px 0 0 5px;
 }
 .get-update-bottom input[type="submit"]{
-    padding: 15px 45px;
+    padding: 15px 40px;
     background-color: #FF5959;
     color: white;
     cursor: pointer;
     border-radius: 0 5px 5px 0;
+}
+
+footer{
+    background-color: #0B0D17;
+    margin-top: 9%;
+}
+.footer-area{
+    text-align: center;
+    padding: 22px 0;
+}
+footer h1{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
+footer p{
+    color: #7697B0;
 }
