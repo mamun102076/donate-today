@@ -99,7 +99,6 @@ body{
     cursor: pointer;
 }
 
-
 /*donate-plan-section-------------*/
 #donate-plan-section{
     margin-top: 90px;
@@ -141,11 +140,30 @@ body{
     background-color: #FFF4D6;
 }
 
-
 /*flood-crisis---------------------*/
 #flood-crisis{
     margin-top: 100px;
     margin-bottom: 50px;
+}
+.crisis-top-area{
+    background-color: #D2B48C;
+    padding: 2px;
+}
+.crisis-top-area h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+}
+.crisis-top-area h1::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 38.5%;
+    width: 23%;
+    height: 10%;
+    background-color: #fff;
 }
 .crisis-area-content{
     display: flex;
@@ -175,12 +193,13 @@ body{
     margin: 30px;
     margin-top: -50px;
     position: relative;
+    box-shadow: 0px 0px 15px #000;
 }
 .crisis-area-bottom.first{
     background-color: #FAEBD7;
 }
 .crisis-area-bottom.second{
-    background-color: #E9967A;
+    background-color: #BDB76B;
 }
 .crisis-area-bottom.third{
     background-color: #F5DEB3;
@@ -188,14 +207,17 @@ body{
 .crisis-area-bottom h2{
     margin-bottom: 0;
     font-weight: normal;
+    font-family: 'Merienda', cursive;
 }
 .crisis-area-bottom h3{
     margin-bottom: 40px;
     font-weight: normal;
+    font-family: 'Merienda', cursive;
 }
 .crisis-area-bottom h1{
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 26px;
+    font-family: 'Courgette', cursive;
 }
 .crisis-link{
     text-decoration: none;
@@ -208,7 +230,6 @@ body{
     color: #fff;
     border: 2px solid #fff;
 }
-
 
 /*flood-crisis-------------------*/
 #get-update-area{
@@ -255,7 +276,6 @@ body{
     cursor: pointer;
     border-radius: 0 6px 6px 0;
 }
-
 
 /*footer-section-------------------*/
 footer{
